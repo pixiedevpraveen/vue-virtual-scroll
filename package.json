@@ -1,0 +1,39 @@
+{
+  "name": "vue-virtual-scroll",
+  "version": "0.5.0",
+  "type": "module",
+  "author": {
+    "name": "Praveen Yadav",
+    "url": "https://praveenyadav.vercel.app"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/virtual-scroll.umd.cjs",
+  "module": "./dist/virtual-scroll.js",
+  "exports": {
+    ".": {
+      "import": "./dist/virtual-scroll.js",
+      "require": "./dist/virtual-scroll.umd.cjs"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/pixiedevpraveen/vue-virtual-scroll"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "types": "vue-tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/types": "^7.23.5",
+    "@types/node": "^20.10.4",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vue": "^3.3.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
