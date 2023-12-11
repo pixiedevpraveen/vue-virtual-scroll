@@ -1,11 +1,11 @@
-# vue-virtual-scroll
+# @pixiedev/vue-virtual-scroll
 
 Vue virtual list component for performant scrolling for vuejs 3.
 
 
 ```vue
 <script setup>
-import VirtualScroll from "vue-virtual-scroll"
+import VirtualScroll from "@pixiedev/vue-virtual-scroll"
 
 /* 
  * data: Array/list of the objects (must have any key field)
